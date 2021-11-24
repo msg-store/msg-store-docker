@@ -1,0 +1,10 @@
+version: "3"
+services:
+  mem:
+    image: msg-store-mem:0.1.0
+    container_name: msg-store-mem
+    ports:
+      - 8080:8080
+    # volumes:
+    #   - "./volumes/mem:/etc/msg-store-server"
+    
